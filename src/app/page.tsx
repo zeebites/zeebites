@@ -1,7 +1,9 @@
+import Navbar from '@/components/home/navbar';
+
 export const metadata = {
 	manifest: '/manifest.json',
 	twitter: {
-		card: 'app',
+		card: 'summary_large_image',
 		title: 'Zeebites Delight',
 		description: 'Delicious moments, Unforgettable events',
 		siteId: '810415194258231296',
@@ -13,6 +15,8 @@ export const metadata = {
 
 export default function Home() {
 	return (
-		<main className='flex min-h-screen flex-col items-center justify-between p-24'></main>
+		<main className=''>
+			<Navbar />
+		</main>
 	);
 }
