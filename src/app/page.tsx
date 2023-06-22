@@ -1,13 +1,13 @@
 export const metadata = {
 	manifest: '/manifest.json',
 	twitter: {
-		card: 'summary_large_image',
-		title: 'Next.js',
-		description: 'The React Framework for the Web',
-		siteId: '1467726470533754880',
-		creator: '@nextjs',
-		creatorId: '1467726470533754880',
-		images: ['/icon-72x72.png'],
+		card: 'app',
+		title: 'Zeebites Delight',
+		description: 'Delicious moments, Unforgettable events',
+		siteId: '810415194258231296',
+		creator: '@Apoyeniran',
+		creatorId: '810415194258231296',
+		images: ['/icon-512x512.png'],
 	},
 };
 
