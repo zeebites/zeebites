@@ -2,7 +2,7 @@
 	"name": "Zeebites Delight",
 	"short_name": "Zeebites",
 	"theme_color": "#f3a11e",
-	"background_color": "#f3a11e",
+	"background_color": "#ffffff",
 	"display": "fullScreen",
 	"description": "Delicious moments, Unforgettable events",
 	"orientation": "portrait",

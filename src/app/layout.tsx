@@ -1,6 +1,8 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
+import NavBar from '@/components/ui/nav-bar';
+import Footer from '@/components/ui/footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
@@ -15,8 +17,10 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang='en'>
-			<body className={`${inter.className} bg-[#f3a11e]`}>
+			<body className={`${inter.className}`}>
+				<NavBar />
 				{children}
+				{/* <Footer /> */}
 				<Analytics />
 			</body>
 		</html>
