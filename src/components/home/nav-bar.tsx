@@ -50,8 +50,9 @@ export default function NavBar() {
 					/>
 				</Link>
 				<div className='lg:flex justify-center w-full hidden'>
-					{COMPANY_PROFILE.navlinks.map((link) => (
+					{COMPANY_PROFILE.navlinks.map((link, index) => (
 						<Link
+							key={index}
 							className='py-2 px-3 hover:text-orange-800 dark:hover:text-orange-200 hover:scale-110 transition-all duration-500 uppercase'
 							href={link.url}
 						>
@@ -87,15 +88,18 @@ export default function NavBar() {
 						transition={{ duration: 0.3 }}
 					>
 						<div className='bg-white dark:bg-orange-800 py-2 px-4 flex flex-col gap-10 items-center w-screen h-screen'>
-							{COMPANY_PROFILE.navlinks.map((link) => (
-								<Link
-									className='py-2 px-4 hover:text-orange-800 dark:hover:text-orange-200 hover:scale-110 transition-all uppercase'
-									href={link.url}
-									onClick={toggleMenu}
-								>
-									{link.title}
-								</Link>
-							))}
+							{COMPANY_PROFILE.navlinks.map(
+								(link, index) => (
+									<Link
+										key={index}
+										className='py-2 px-4 hover:text-orange-800 dark:hover:text-orange-200 hover:scale-110 transition-all uppercase'
+										href={link.url}
+										onClick={toggleMenu}
+									>
+										{link.title}
+									</Link>
+								)
+							)}
 							<Button
 								href={COMPANY_PROFILE.calendly}
 								className='shrink-0 py-2 px-4 dark:bg-orange-900 bg-orange-200 hover:bg-orange-400 dark:hover:bg-orange-700 rounded-lg cursor-pointer'
