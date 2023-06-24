@@ -1,7 +1,9 @@
 import AboutUsSection from '@/components/home/about-us-section';
 import CTASection from '@/components/home/call-to-action';
 import ContactInformation from '@/components/home/contact-section';
+import FAQSection from '@/components/home/faq-section';
 import FeaturedEventsSection from '@/components/home/featured-event-section';
+import GallerySection from '@/components/home/gallery-section';
 import Header from '@/components/home/header';
 import HeroSection from '@/components/home/hero-section';
 import HowItWorksSection from '@/components/home/how-it-works-section';
@@ -37,6 +39,8 @@ export default function Home() {
 			<AboutUsSection />
 			<ContactInformation />
 			<CTASection />
+			<FAQSection />
+			<GallerySection />
 		</main>
 	);
 }

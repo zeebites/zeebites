@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { Fragment, useEffect, useRef, useState } from 'react';
-import Button from './button';
+import Button from '../ui/button';
 import { COMPANY_PROFILE } from '../../../utils/const';
 
 export default function NavBar() {

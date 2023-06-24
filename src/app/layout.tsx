@@ -1,8 +1,8 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
-import NavBar from '@/components/ui/nav-bar';
-import Footer from '@/components/ui/footer';
+import NavBar from '@/components/home/nav-bar';
+import Footer from '@/components/home/footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
@@ -20,7 +20,7 @@ export default function RootLayout({
 			<body className={`${inter.className}`}>
 				<NavBar />
 				{children}
-				{/* <Footer /> */}
+				<Footer />
 				<Analytics />
 			</body>
 		</html>

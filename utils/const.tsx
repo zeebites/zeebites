@@ -234,6 +234,43 @@ export const COMPANY_PROFILE = {
 		mission: 'Our mission is to satisfy our customers with the best quality snacks and refreshments, ensuring each bite is filled with flavor and enjoyment.',
 		vision: 'Our vision is to become the go-to choice for snacks and refreshments catering, delivering delicious moments and unforgettable events.',
 	},
+	faq: [
+		{
+			question: 'What snacks do you offer?',
+			answer: 'We offer a variety of snacks including Puffpuff, Chicken Puff, Moin-moin, Chin-chin, Spring roll, Samosa’s, Assorted Turkey, and KELEWELE (Ghanaian flavour).',
+		},
+		{
+			question: 'Do you cater to dietary preferences?',
+			answer: 'Yes, we can accommodate dietary preferences such as vegetarian, vegan, gluten-free, and more. Please let us know your specific requirements when placing an order.',
+		},
+		// Add more FAQ items as needed
+	],
+	gallery: [
+		{
+			url: 'path/to/image1.jpg',
+			caption: 'Delicious Puffpuff',
+			category: 'snacks',
+		},
+		{
+			url: 'path/to/image2.jpg',
+			caption: 'Tasty Chicken Puff',
+			category: 'snacks',
+		},
+		{
+			url: 'path/to/image3.jpg',
+			caption: 'Event Setup',
+			category: 'events',
+		},
+		// Add more gallery images with their respective categories
+	],
+	social: [
+		{
+			platform: 'Instagram',
+			url: 'https://www.instagram.com/Zeebites_delight',
+			icon: '/instagram.png',
+		},
+		// Add more social media platforms as needed
+	],
 };
 
 export const CAROUSEL_IMAGES = [
