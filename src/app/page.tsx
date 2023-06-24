@@ -4,7 +4,6 @@ import ContactInformation from '@/components/home/contact-section';
 import FAQSection from '@/components/home/faq-section';
 import FeaturedEventsSection from '@/components/home/featured-event-section';
 import GallerySection from '@/components/home/gallery-section';
-import Header from '@/components/home/header';
 import HeroSection from '@/components/home/hero-section';
 import HowItWorksSection from '@/components/home/how-it-works-section';
 import IntroductionSection from '@/components/home/introduction-section';
@@ -28,7 +27,6 @@ export const metadata = {
 export default function Home() {
 	return (
 		<main className=''>
-			<Header />
 			<HeroSection />
 			<IntroductionSection />
 			<ServicesSection />

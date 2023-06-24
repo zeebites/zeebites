@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
 	const { name, address, email, phone, social } = COMPANY_PROFILE;
 
 	return (
-		<footer className='bg-gray-800 py-8'>
+		<footer className='bg-orange-800 py-8'>
 			<div className='container mx-auto px-4'>
 				<div className='flex flex-wrap justify-between items-start'>
 					<div className='w-full md:w-1/2 lg:w-1/4 mb-4 md:mb-0'>

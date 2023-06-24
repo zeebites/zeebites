@@ -15,20 +15,22 @@ const TestimonialsSection: React.FC = () => {
 					{testimonials.map((testimonial, index) => (
 						<div
 							key={index}
-							className='bg-white rounded-lg shadow-md p-6'
+							className='flex flex-col justify-between rounded-lg shadow-md overflow-hidden bg-orange-100'
 						>
-							<p className='text-gray-600 mb-4'>
+							<p className='text-gray-600 p-6'>
 								{testimonial.content}
 							</p>
-							<div className='flex items-center'>
-								<BlurImage
-									src={testimonial.avatar}
-									alt={testimonial.author}
-									className='w-12 h-12 rounded-full mr-4'
-									height={64}
-									width={64}
-								/>
-								<div>
+							<div className='flex items-center bg-orange-200'>
+								<div className='w-16 h-16 overflow-hidden flex-shrink-0 flex-grow-0 rounded-tr-xl'>
+									<BlurImage
+										src={testimonial.avatar}
+										alt={testimonial.author}
+										className='w-16 h-16'
+										height={64}
+										width={64}
+									/>
+								</div>
+								<div className='pl-3'>
 									<h3 className='font-bold'>
 										{testimonial.author}
 									</h3>

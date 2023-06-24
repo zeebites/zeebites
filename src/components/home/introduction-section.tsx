@@ -3,7 +3,7 @@ import { COMPANY_PROFILE } from '../../../utils/const';
 
 const IntroductionSection: React.FC = () => {
 	return (
-		<section className='bg-gray-100 py-12'>
+		<section className='bg-orange-100 py-12'>
 			<div className='container mx-auto px-4'>
 				<div className='text-center'>
 					<h2 className='text-4xl font-bold mb-4'>

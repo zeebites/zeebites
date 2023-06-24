@@ -1,5 +1,6 @@
 export const COMPANY_PROFILE = {
 	logo: '/icon-72x72.png',
+	logolg: '/icon-512x512.png',
 	name: 'Zeebites Delight',
 	tagline: 'Delicious Moments, Unforgettable Events',
 	address: '8015 Barnes Ridge Ln, Houston TX, 77072',
@@ -29,7 +30,7 @@ export const COMPANY_PROFILE = {
 	heroSubtitle: 'Experience a World of Flavors',
 	heroCTA: 'Book Your Catering Now',
 	heroType: 'video', // or 'image'
-	heroImage: 'path/to/hero-image.jpg',
+	heroImage: '/samosas2.jpg',
 	heroVideo: '/video.webm',
 	valueProposition:
 		'At Zeebites Delight, we create culinary magic to make your events unforgettable. With our handcrafted snacks and refreshments, we guarantee to satisfy your taste buds and leave a lasting impression on your guests.',
@@ -37,11 +38,13 @@ export const COMPANY_PROFILE = {
 		{
 			name: 'Puffpuff',
 			description: 'Delicious deep-fried dough balls.',
+			image: '/samosas2.jpg',
 			items: ['Classic Puffpuff', 'Sweet Puffpuff', 'Savory Puffpuff'],
 		},
 		{
 			name: 'Chicken Puff',
 			description: 'Savory pastry filled with seasoned chicken.',
+			image: '/samosas2.jpg',
 			items: [
 				'Spicy Chicken Puff',
 				'Cheesy Chicken Puff',
@@ -51,6 +54,7 @@ export const COMPANY_PROFILE = {
 		{
 			name: 'Moin-moin',
 			description: 'Steamed bean cakes with a rich blend of spices.',
+			image: '/samosas2.jpg',
 			items: [
 				'Traditional Moin-moin',
 				'Vegetable Moin-moin',
@@ -60,6 +64,7 @@ export const COMPANY_PROFILE = {
 		{
 			name: 'Chin-chin',
 			description: 'Crunchy, sweet, and lightly spiced snacks.',
+			image: '/samosas2.jpg',
 			items: [
 				'Classic Chin-chin',
 				'Vanilla Chin-chin',
@@ -69,6 +74,7 @@ export const COMPANY_PROFILE = {
 		{
 			name: 'Spring Roll',
 			description: 'Thin pastry filled with a variety of fillings.',
+			image: '/samosas2.jpg',
 			items: [
 				'Vegetable Spring Roll',
 				'Chicken Spring Roll',
@@ -78,11 +84,13 @@ export const COMPANY_PROFILE = {
 		{
 			name: 'Samosas',
 			description: 'Crispy pastry filled with savory fillings.',
+			image: '/samosas2.jpg',
 			items: ['Vegetable Samosa', 'Chicken Samosa', 'Beef Samosa'],
 		},
 		{
 			name: 'Assorted Turkey',
 			description: 'Tender and flavorful turkey meat.',
+			image: '/samosas2.jpg',
 			items: [
 				'Herb-Roasted Turkey',
 				'Spicy BBQ Turkey',
@@ -92,6 +100,7 @@ export const COMPANY_PROFILE = {
 		{
 			name: 'Kelewele (Ghanaian flavor)',
 			description: 'Fried plantains seasoned with aromatic spices.',
+			image: '/samosas2.jpg',
 			items: [
 				'Spicy Kelewele',
 				'Sweet and Tangy Kelewele',
@@ -104,45 +113,45 @@ export const COMPANY_PROFILE = {
 			content: "Zeebites Delight catered our event, and their snacks were a huge hit! Our guests couldn't get enough of the delicious Puffpuff and Spring Rolls. Highly recommended!",
 			author: 'John Doe',
 			role: 'Event Organizer',
-			avatar: 'path/to/avatar1.jpg',
+			avatar: '/avatar1.jpg',
 		},
 		{
 			content: "The Chin-chin from Zeebites Delight is absolutely addictive! Their attention to flavor and quality is unmatched. I can't wait to order again!",
 			author: 'Jane Smith',
 			role: 'Food Lover',
-			avatar: 'path/to/avatar2.jpg',
+			avatar: '/avatar2.jpg',
 		},
 		{
 			content: 'Moin-moin is one of my favorite Nigerian snacks, and Zeebites Delight does it perfectly! Their Moin-moin is always moist and full of flavor. Definitely ordering again!',
 			author: 'Sarah Johnson',
 			role: 'Snack Enthusiast',
-			avatar: 'path/to/avatar3.jpg',
+			avatar: '/avatar3.jpg',
 		},
 		{
 			content: 'The Assorted Turkey from Zeebites Delight is a must-try! Tender and juicy, with incredible seasoning. It was the highlight of our Thanksgiving dinner. Thank you!',
 			author: 'Michael Brown',
 			role: 'Turkey Lover',
-			avatar: 'path/to/avatar4.jpg',
+			avatar: '/avatar4.jpg',
 		},
 		{
 			content: 'I recently discovered Kelewele from Zeebites Delight, and it has quickly become my go-to snack. The combination of spices is perfect, and the texture is divine. Highly recommended!',
 			author: 'Emily Wilson',
 			role: 'Flavor Adventurer',
-			avatar: 'path/to/avatar5.jpg',
+			avatar: '/avatar5.jpg',
 		},
 	],
 	featuredEvents: [
 		{
 			title: 'Food Fest 2023',
 			description: `Join us at Food Fest 2023, where we'll be showcasing our mouthwatering snacks and refreshments. Don\'t miss out on this culinary extravaganza!`,
-			image: 'path/to/event1.jpg',
+			image: '/event1.jpg',
 			link: 'https://example.com/foodfest2023',
 		},
 		{
 			title: 'Summer BBQ Bash',
 			description:
 				"Celebrate summer with our sizzling BBQ Bash! Indulge in our grilled delights and experience a flavor-packed event you won't forget.",
-			image: 'path/to/event2.jpg',
+			image: '/event2.jpg',
 			link: 'https://example.com/bbqbash',
 		},
 		// Add more featured events as needed
@@ -227,7 +236,7 @@ export const COMPANY_PROFILE = {
 		},
 	],
 	aboutUs: {
-		image: '/images/about-us.jpg',
+		image: '/about.jpg',
 		title: 'Welcome to Zeebites Delight',
 		description:
 			'At Zeebites Delight, we are passionate about providing delicious snacks and refreshments for all occasions. With our wide range of mouthwatering treats, we aim to make every event a delightful experience.',
@@ -247,17 +256,47 @@ export const COMPANY_PROFILE = {
 	],
 	gallery: [
 		{
-			url: 'path/to/image1.jpg',
+			url: '/event5.jpg',
 			caption: 'Delicious Puffpuff',
 			category: 'snacks',
 		},
 		{
-			url: 'path/to/image2.jpg',
+			url: '/event4.jpg',
 			caption: 'Tasty Chicken Puff',
 			category: 'snacks',
 		},
 		{
-			url: 'path/to/image3.jpg',
+			url: '/event3.jpg',
+			caption: 'Event Setup',
+			category: 'events',
+		},
+		{
+			url: '/event5.jpg',
+			caption: 'Delicious Puffpuff',
+			category: 'snacks',
+		},
+		{
+			url: '/event4.jpg',
+			caption: 'Tasty Chicken Puff',
+			category: 'snacks',
+		},
+		{
+			url: '/event3.jpg',
+			caption: 'Event Setup',
+			category: 'events',
+		},
+		{
+			url: '/event5.jpg',
+			caption: 'Delicious Puffpuff',
+			category: 'snacks',
+		},
+		{
+			url: '/event4.jpg',
+			caption: 'Tasty Chicken Puff',
+			category: 'snacks',
+		},
+		{
+			url: '/about.jpg',
 			caption: 'Event Setup',
 			category: 'events',
 		},
@@ -271,88 +310,5 @@ export const COMPANY_PROFILE = {
 		},
 		// Add more social media platforms as needed
 	],
+	map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.9938342847277!2d-95.61365442432094!3d29.690958435232204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640dd98fc971695%3A0x237fb12e3ffcfd4f!2s8015%20Barnes%20Ridge%20Ln%2C%20Houston%2C%20TX%2077072%2C%20USA!5e0!3m2!1sen!2sng!4v1685624248600!5m2!1sen!2sng',
 };
-
-export const CAROUSEL_IMAGES = [
-	{
-		id: '1',
-		src: '/slide1.jpg',
-		alt: 'Image 1',
-		title: COMPANY_PROFILE.name,
-		description: COMPANY_PROFILE.tagline,
-		buttonText: 'Book consultation',
-	},
-	{
-		id: '2',
-		src: '/slide2.jpg',
-		alt: 'Image 2',
-		title: COMPANY_PROFILE.name,
-		description: COMPANY_PROFILE.tagline,
-		buttonText: 'Book consultation',
-	},
-];
-
-export const TEAM_MEMBERS = [
-	{
-		name: 'Kayode Atiba',
-		position: 'Licensed Financial Professional',
-		bio: 'Kayode Atiba is a seasoned Licensed Financial Professional with many years of experience...',
-		photo: '/kayode.jpg',
-		age: 21,
-	},
-	{
-		name: 'Foluke Oladipo',
-		position: 'Licensed Financial Professional',
-		bio: 'Foluke Oladipo is a seasoned Licensed Financial Professional with over 10 years of experience...',
-		photo: '/foluke.jpg',
-		age: 21,
-	},
-];
-
-export const COMMITMENT_STATEMENTS = [
-	'Putting your best interests first and acting as your trusted financial partner.',
-	'Providing personalized solutions that align with your unique goals and circumstances.',
-	'Delivering exceptional service and support to ensure your satisfaction.',
-	'Staying informed and up-to-date with the latest industry trends and strategies.',
-	'Continuously improving our knowledge and skills to better serve you.',
-];
-
-export const SERVICES = [
-	{
-		title: 'Rules of Money',
-		description:
-			'Understanding the rules of money is crucial for financial success. On our website, we discuss key principles and strategies that can help you make informed decisions about managing and growing your wealth. By mastering these rules, you can take control of your financial future and make the most of your opportunities.',
-	},
-];
-
-export const PRODUCTS = [
-	{
-		title: 'Tax-Free Financial Portfolios',
-		description:
-			'Our tax-free financial portfolios offer you the opportunity to grow your investments while potentially enjoying tax-free returns. By leveraging tax-advantaged investment vehicles, you can maximize your after-tax returns and build wealth more efficiently.',
-	},
-];
-
-export const MAP_LOCATION =
-	'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.9938342847277!2d-95.61365442432094!3d29.690958435232204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640dd98fc971695%3A0x237fb12e3ffcfd4f!2s8015%20Barnes%20Ridge%20Ln%2C%20Houston%2C%20TX%2077072%2C%20USA!5e0!3m2!1sen!2sng!4v1685624248600!5m2!1sen!2sng';
-
-export const TESTIMONIALS = [
-	{
-		id: '00',
-		image: '/john.jpg',
-		name: 'John Smith',
-		testimony: `"I can't thank ${COMPANY_PROFILE.name} Services enough for the incredible support and guidance they provided me with. As a first-time investor, I was overwhelmed by the complexities of the financial market. However, their team patiently explained everything to me, helping me make informed decisions about my investments. Thanks to their expertise and personalized advice, I've seen my portfolio grow steadily, and I now feel confident about my financial future. I highly recommend Smart Steps to anyone seeking reliable financial services."`,
-	},
-	{
-		id: '01',
-		image: '/emily.jpg',
-		name: 'Emily Johnson',
-		testimony: `"${COMPANY_PROFILE.name} Services has been a game-changer for me and my family. We were struggling to manage our debts and plan for our children's education. But when we reached out to Smart Steps, their compassionate and knowledgeable team went above and beyond to help us. They crafted a comprehensive debt management plan that helped us regain control over our finances. They also provided excellent insights and strategies to save for our children's future education. Thanks to Smart Steps, we are now on track towards financial stability and have peace of mind knowing we're making smart financial choices."`,
-	},
-	{
-		id: '02',
-		image: '/alexa.jpg',
-		name: 'Alexa Smith',
-		testimony: `"Working with ${COMPANY_PROFILE.name} Services has been a transformative experience. Their financial advisors truly care about their clients' well-being and take the time to understand their unique goals and challenges. They helped me create a tailored financial plan that aligned with my aspirations. With their guidance, I was able to optimize my investments, protect my assets, and ensure a comfortable retirement. Smart Steps' commitment to their clients' success sets them apart, and I wholeheartedly recommend their services to anyone seeking a trustworthy partner in their financial journey."`,
-	},
-];

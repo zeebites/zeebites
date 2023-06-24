@@ -6,7 +6,7 @@ const ContactInformation: React.FC = () => {
 	const { email, phone, address } = COMPANY_PROFILE;
 
 	return (
-		<section className='bg-gray-100 py-12'>
+		<section className='bg-orange-100 py-12'>
 			<div className='container mx-auto px-4'>
 				<h2 className='text-4xl font-bold text-center mb-8'>
 					Contact Information
