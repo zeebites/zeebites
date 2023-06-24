@@ -1,6 +1,6 @@
 import React from 'react';
 import { COMPANY_PROFILE } from '../../../utils/const';
-import Image from 'next/image';
+import BlurImage from '../ui/blur-image';
 
 const ServicesSection: React.FC = () => {
 	const { services } = COMPANY_PROFILE;
@@ -18,7 +18,7 @@ const ServicesSection: React.FC = () => {
 							className='rounded-lg shadow-md overflow-hidden bg-orange-100'
 						>
 							<div className='w-full h-60 overflow-hidden'>
-								<Image
+								<BlurImage
 									src={service.image}
 									alt={service.name}
 									className='w-full h-full object-cover object-center '

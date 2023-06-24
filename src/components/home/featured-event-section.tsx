@@ -34,7 +34,7 @@ const FeaturedEventsSection: React.FC = () => {
 								href={event.link}
 								target='_blank'
 								rel='noopener noreferrer'
-								className='text-blue-500 hover:underline'
+								className='text-orange-500 hover:underline'
 							>
 								Learn More
 							</a>

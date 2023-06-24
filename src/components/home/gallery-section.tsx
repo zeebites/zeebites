@@ -27,7 +27,7 @@ const GallerySection: React.FC = () => {
 						className={`mx-2 px-4 py-2 rounded-md ${
 							selectedFilter === 'all'
 								? 'bg-orange-500 text-white'
-								: 'bg-white text-blue-500'
+								: 'bg-white text-orange-500'
 						}`}
 						onClick={() => handleFilterChange('all')}
 					>
@@ -37,7 +37,7 @@ const GallerySection: React.FC = () => {
 						className={`mx-2 px-4 py-2 rounded-md ${
 							selectedFilter === 'snacks'
 								? 'bg-orange-500 text-white'
-								: 'bg-white text-blue-500'
+								: 'bg-white text-orange-500'
 						}`}
 						onClick={() => handleFilterChange('snacks')}
 					>
@@ -47,7 +47,7 @@ const GallerySection: React.FC = () => {
 						className={`mx-2 px-4 py-2 rounded-md ${
 							selectedFilter === 'events'
 								? 'bg-orange-500 text-white'
-								: 'bg-white text-blue-500'
+								: 'bg-white text-orange-500'
 						}`}
 						onClick={() => handleFilterChange('events')}
 					>

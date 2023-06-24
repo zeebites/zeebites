@@ -37,7 +37,7 @@ const PricingSection: React.FC = () => {
 									href={pack.link}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='text-blue-500 hover:underline'
+									className='text-orange-500 hover:underline'
 								>
 									Learn More
 								</a>

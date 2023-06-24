@@ -47,7 +47,7 @@ const TestimonialsSection: React.FC = () => {
 						href={`https://www.instagram.com/${instagramHandle}`}
 						target='_blank'
 						rel='noopener noreferrer'
-						className='text-blue-500 font-semibold'
+						className='text-orange-500 font-semibold'
 					>
 						Follow us on Instagram
 					</a>

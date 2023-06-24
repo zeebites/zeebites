@@ -53,19 +53,19 @@ export default function NavBar() {
 					{COMPANY_PROFILE.navlinks.map((link, index) => (
 						<Link
 							key={index}
-							className='py-2 px-3 hover:text-orange-800 dark:hover:text-orange-200 hover:scale-110 transition-all duration-500 uppercase'
+							className='py-2 px-3 hover:text-orange-800 hover:bg-white rounded dark:hover:text-orange-200 hover:scale-110 transition-all duration-500 uppercase'
 							href={link.url}
 						>
 							{link.title}
 						</Link>
 					))}
 				</div>
-				<Button
+				<Link
 					href={COMPANY_PROFILE.calendly}
-					className=''
+					className='shrink-0 py-2 px-4 dark:bg-orange-600 hover:text-white bg-orange-300 hover:bg-orange-400 dark:hover:bg-orange-700 rounded-lg cursor-pointer'
 				>
 					Order Now
-				</Button>
+				</Link>
 				<button
 					className='shrink-0 py-2 px-4 dark:bg-orange-900 bg-orange-200 hover:bg-orange-400 dark:hover:bg-orange-700 rounded-lg cursor-pointer lg:hidden relative'
 					onClick={toggleMenu}

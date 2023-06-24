@@ -306,7 +306,7 @@ export const COMPANY_PROFILE = {
 		{
 			platform: 'Instagram',
 			url: 'https://www.instagram.com/Zeebites_delight',
-			icon: '/instagram.png',
+			icon: 'INSTAGRAM',
 		},
 		// Add more social media platforms as needed
 	],

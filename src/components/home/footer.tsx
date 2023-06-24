@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
 							Email:{' '}
 							<Link
 								href={`mailto:${email}`}
-								className='text-blue-500'
+								className='text-orange-500'
 							>
 								{email}
 							</Link>
@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
 							Phone:{' '}
 							<Link
 								href={`tel:${phone}`}
-								className='text-blue-500'
+								className='text-orange-500'
 							>
 								{formatPhoneNumber(phone)}
 							</Link>

@@ -18,7 +18,7 @@ const CTASection: React.FC = () => {
 				</h2>
 				<div className='flex justify-center'>
 					<button
-						className='bg-white text-blue-500 font-semibold py-2 px-4 rounded-md shadow-md hover:bg-orange-100 transition duration-300'
+						className='bg-white text-orange-500 font-semibold py-2 px-4 rounded-md shadow-md hover:bg-orange-100 transition duration-300'
 						onClick={handleWhatsAppClick}
 					>
 						Order via WhatsApp
