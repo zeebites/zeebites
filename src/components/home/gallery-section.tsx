@@ -93,10 +93,12 @@ const GallerySection: React.FC = () => {
 						className='fixed top-0 left-0 z-[210] w-full h-full bg-black bg-opacity-75 flex justify-center items-center p-10'
 						onClick={() => setSelectedImage(null)}
 					>
-						<img
-							src={selectedImage && selectedImage.url}
+						<BlurImage
+							src={selectedImage.url}
 							alt={selectedImage.caption}
-							className='max-w-full max-h-full'
+							className='max-w-full max-h-full object-contain overflow-hidden'
+							width={1080}
+							height={1080}
 						/>
 						<div
 							className='absolute top-0 right-0 p-5 text-white'

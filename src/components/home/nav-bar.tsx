@@ -25,6 +25,10 @@ export default function NavBar() {
 			}
 		}
 	};
+	const handleWhatsAppClick = () => {
+		const whatsappUrl = `https://wa.me/${COMPANY_PROFILE.phone}`;
+		window.open(whatsappUrl, '_blank');
+	};
 
 	useEffect(() => {
 		document.addEventListener('click', handleOutsideClick);
@@ -60,12 +64,12 @@ export default function NavBar() {
 						</Link>
 					))}
 				</div>
-				<Link
-					href={COMPANY_PROFILE.calendly}
+				<button
+					onClick={handleWhatsAppClick}
 					className='shrink-0 py-2 px-4 dark:bg-orange-600 hover:text-white bg-orange-300 hover:bg-orange-400 dark:hover:bg-orange-700 rounded-lg cursor-pointer'
 				>
 					Order Now
-				</Link>
+				</button>
 				<button
 					className='shrink-0 py-2 px-4 dark:bg-orange-900 bg-orange-200 hover:bg-orange-400 dark:hover:bg-orange-700 rounded-lg cursor-pointer lg:hidden relative'
 					onClick={toggleMenu}
@@ -101,10 +105,10 @@ export default function NavBar() {
 								)
 							)}
 							<Button
-								href={COMPANY_PROFILE.calendly}
+								onClick={handleWhatsAppClick}
 								className='shrink-0 py-2 px-4 dark:bg-orange-900 bg-orange-200 hover:bg-orange-400 dark:hover:bg-orange-700 rounded-lg cursor-pointer'
 							>
-								BOOK CONSULTATION
+								Order Now
 							</Button>
 						</div>
 					</motion.div>

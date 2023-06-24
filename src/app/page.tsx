@@ -29,16 +29,16 @@ export default function Home() {
 		<main className=''>
 			<HeroSection />
 			<IntroductionSection />
+			<AboutUsSection />
 			<ServicesSection />
-			<TestimonialsSection />
 			<FeaturedEventsSection />
 			<HowItWorksSection />
 			<PricingSection />
-			<AboutUsSection />
-			<ContactInformation />
 			<CTASection />
-			<FAQSection />
 			<GallerySection />
+			<TestimonialsSection />
+			<ContactInformation />
+			<FAQSection />
 		</main>
 	);
 }
