@@ -1,5 +1,6 @@
 import React from 'react';
 import { COMPANY_PROFILE } from '../../../utils/const';
+import BlurImage from '../ui/blur-image';
 
 const HeroSection: React.FC = () => {
 	return (
@@ -20,10 +21,12 @@ const HeroSection: React.FC = () => {
 			</div>
 			<div className='hero-media'>
 				{COMPANY_PROFILE.heroType === 'image' && (
-					<img
+					<BlurImage
 						src={COMPANY_PROFILE.heroImage}
 						alt='Delicious Snacks and Refreshments'
-						className='w-full'
+						className='w-full object-cover object-center'
+						height={1080}
+						width={1080}
 					/>
 				)}
 				{COMPANY_PROFILE.heroType === 'video' && (
@@ -32,7 +35,7 @@ const HeroSection: React.FC = () => {
 						autoPlay
 						loop
 						muted
-						className='w-full'
+						className='w-full object-cover object-center'
 					/>
 				)}
 			</div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { COMPANY_PROFILE } from '../../../utils/const';
+import BlurImage from '../ui/blur-image';
 
 const TestimonialsSection: React.FC = () => {
 	const { instagramHandle, testimonials } = COMPANY_PROFILE;
@@ -20,10 +21,12 @@ const TestimonialsSection: React.FC = () => {
 								{testimonial.content}
 							</p>
 							<div className='flex items-center'>
-								<img
+								<BlurImage
 									src={testimonial.avatar}
 									alt={testimonial.author}
 									className='w-12 h-12 rounded-full mr-4'
+									height={64}
+									width={64}
 								/>
 								<div>
 									<h3 className='font-bold'>

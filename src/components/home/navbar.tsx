@@ -1,4 +1,5 @@
 'use client';
+import Image from 'next/image';
 import React from 'react';
 
 export default function Navbar() {
@@ -6,10 +7,12 @@ export default function Navbar() {
 	return (
 		<nav className=''>
 			<div className=''>
-				<img
+				<Image
 					src='/icon-72x72.png'
 					alt=''
-					className='invert'
+					className='w-full '
+					height={64}
+					width={64}
 				/>
 			</div>
 			<ul className=''>

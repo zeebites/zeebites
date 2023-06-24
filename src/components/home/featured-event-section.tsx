@@ -1,5 +1,6 @@
 import React from 'react';
 import { COMPANY_PROFILE } from '../../../utils/const';
+import BlurImage from '../ui/blur-image';
 
 const FeaturedEventsSection: React.FC = () => {
 	const { featuredEvents } = COMPANY_PROFILE;
@@ -16,10 +17,12 @@ const FeaturedEventsSection: React.FC = () => {
 							key={index}
 							className='bg-white rounded-lg shadow-md p-6'
 						>
-							<img
+							<BlurImage
 								src={event.image}
 								alt={event.title}
-								className='w-full h-48 object-cover rounded-md mb-4'
+								className='w-full h-auto rounded-lg mb-6 object-center object-cover'
+								height={500}
+								width={500}
 							/>
 							<h3 className='text-xl font-bold mb-2'>
 								{event.title}

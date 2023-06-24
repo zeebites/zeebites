@@ -1,5 +1,6 @@
 import React from 'react';
 import { COMPANY_PROFILE } from '../../../utils/const';
+import BlurImage from '../ui/blur-image';
 
 const AboutUsSection: React.FC = () => {
 	const { aboutUs } = COMPANY_PROFILE;
@@ -12,10 +13,12 @@ const AboutUsSection: React.FC = () => {
 				</h2>
 				<div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
 					<div>
-						<img
+						<BlurImage
 							src={aboutUs.image}
 							alt='About Us'
-							className='w-full h-auto rounded-lg mb-6'
+							className='w-full h-auto rounded-lg mb-6 object-center object-cover'
+							height={500}
+							width={500}
 						/>
 					</div>
 					<div>

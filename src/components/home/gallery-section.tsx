@@ -1,6 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import { COMPANY_PROFILE } from '../../../utils/const';
+import BlurImage from '../ui/blur-image';
 
 const GallerySection: React.FC = () => {
 	const { gallery } = COMPANY_PROFILE;
@@ -56,10 +57,12 @@ const GallerySection: React.FC = () => {
 				<div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
 					{filteredGallery.map((image, index) => (
 						<div key={index}>
-							<img
+							<BlurImage
 								src={image.url}
 								alt={image.caption}
 								className='w-full h-full object-cover rounded-md'
+								height={500}
+								width={500}
 							/>
 							<p className='text-center mt-2 text-gray-600'>
 								{image.caption}
