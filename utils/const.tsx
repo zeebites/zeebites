@@ -38,13 +38,13 @@ export const COMPANY_PROFILE = {
 		{
 			name: 'Puffpuff',
 			description: 'Delicious deep-fried dough balls.',
-			image: '/samosas2.jpg',
+			image: '/puffpuff.jpg',
 			items: ['Classic Puffpuff', 'Sweet Puffpuff', 'Savory Puffpuff'],
 		},
 		{
 			name: 'Chicken Puff',
 			description: 'Savory pastry filled with seasoned chicken.',
-			image: '/samosas2.jpg',
+			image: '/chickenpuff.jpg',
 			items: [
 				'Spicy Chicken Puff',
 				'Cheesy Chicken Puff',
@@ -54,7 +54,7 @@ export const COMPANY_PROFILE = {
 		{
 			name: 'Moin-moin',
 			description: 'Steamed bean cakes with a rich blend of spices.',
-			image: '/samosas2.jpg',
+			image: '/moinmoin.jpg',
 			items: [
 				'Traditional Moin-moin',
 				'Vegetable Moin-moin',
@@ -64,7 +64,7 @@ export const COMPANY_PROFILE = {
 		{
 			name: 'Chin-chin',
 			description: 'Crunchy, sweet, and lightly spiced snacks.',
-			image: '/samosas2.jpg',
+			image: '/chinchin.jpg',
 			items: [
 				'Classic Chin-chin',
 				'Vanilla Chin-chin',
@@ -74,7 +74,7 @@ export const COMPANY_PROFILE = {
 		{
 			name: 'Spring Roll',
 			description: 'Thin pastry filled with a variety of fillings.',
-			image: '/samosas2.jpg',
+			image: '/springroll1.jpg',
 			items: [
 				'Vegetable Spring Roll',
 				'Chicken Spring Roll',
@@ -84,13 +84,13 @@ export const COMPANY_PROFILE = {
 		{
 			name: 'Samosas',
 			description: 'Crispy pastry filled with savory fillings.',
-			image: '/samosas2.jpg',
+			image: '/samosas4.jpg',
 			items: ['Vegetable Samosa', 'Chicken Samosa', 'Beef Samosa'],
 		},
 		{
 			name: 'Assorted Turkey',
 			description: 'Tender and flavorful turkey meat.',
-			image: '/samosas2.jpg',
+			image: '/turkey.jpg',
 			items: [
 				'Herb-Roasted Turkey',
 				'Spicy BBQ Turkey',
@@ -100,7 +100,7 @@ export const COMPANY_PROFILE = {
 		{
 			name: 'Kelewele (Ghanaian flavor)',
 			description: 'Fried plantains seasoned with aromatic spices.',
-			image: '/samosas2.jpg',
+			image: '/kelewele.jpg',
 			items: [
 				'Spicy Kelewele',
 				'Sweet and Tangy Kelewele',
@@ -111,19 +111,19 @@ export const COMPANY_PROFILE = {
 	testimonials: [
 		{
 			content: "Zeebites Delight catered our event, and their snacks were a huge hit! Our guests couldn't get enough of the delicious Puffpuff and Spring Rolls. Highly recommended!",
-			author: 'John Doe',
+			author: 'Ogunbodede Lawal',
 			role: 'Event Organizer',
 			avatar: '/avatar1.jpg',
 		},
 		{
 			content: "The Chin-chin from Zeebites Delight is absolutely addictive! Their attention to flavor and quality is unmatched. I can't wait to order again!",
-			author: 'Jane Smith',
+			author: 'Chritiana Nwachukwu',
 			role: 'Food Lover',
 			avatar: '/avatar2.jpg',
 		},
 		{
 			content: 'Moin-moin is one of my favorite Nigerian snacks, and Zeebites Delight does it perfectly! Their Moin-moin is always moist and full of flavor. Definitely ordering again!',
-			author: 'Sarah Johnson',
+			author: 'Sarah Adetokumbo',
 			role: 'Snack Enthusiast',
 			avatar: '/avatar3.jpg',
 		},
@@ -135,7 +135,7 @@ export const COMPANY_PROFILE = {
 		},
 		{
 			content: 'I recently discovered Kelewele from Zeebites Delight, and it has quickly become my go-to snack. The combination of spices is perfect, and the texture is divine. Highly recommended!',
-			author: 'Emily Wilson',
+			author: 'Olusola Wilson',
 			role: 'Flavor Adventurer',
 			avatar: '/avatar5.jpg',
 		},
@@ -145,23 +145,22 @@ export const COMPANY_PROFILE = {
 			title: 'Food Fest 2023',
 			description: `Join us at Food Fest 2023, where we'll be showcasing our mouthwatering snacks and refreshments. Don\'t miss out on this culinary extravaganza!`,
 			image: '/event1.jpg',
-			link: 'https://example.com/foodfest2023',
+			link: '/#',
 		},
 		{
 			title: 'Summer BBQ Bash',
 			description:
 				"Celebrate summer with our sizzling BBQ Bash! Indulge in our grilled delights and experience a flavor-packed event you won't forget.",
 			image: '/event2.jpg',
-			link: 'https://example.com/bbqbash',
+			link: '/#',
 		},
-		// Add more featured events as needed
 	],
 	howItWorks: [
 		{
 			number: '1',
 			title: 'Place Your Order',
 			description:
-				'Browse our menu, select your favorite snacks and refreshments, and place your order online or by phone.',
+				'Browse our menu, checkout your favorite snacks and refreshments, click book now to place your order on Whatsapp.',
 		},
 		{
 			number: '2',
@@ -188,7 +187,7 @@ export const COMPANY_PROFILE = {
 			description:
 				'Perfect for small gatherings and casual events. Includes a variety of snacks and refreshments.',
 			price: 99,
-			link: 'https://example.com/essential-package',
+			link: 'https://wa.link/ynskwn',
 			plan: [
 				'15 servings of Puffpuff',
 				'10 servings of Chicken Puff',
@@ -201,7 +200,7 @@ export const COMPANY_PROFILE = {
 			description:
 				'Ideal for medium-sized events and parties. Offers an extensive selection of snacks and refreshments.',
 			price: 199,
-			link: 'https://example.com/deluxe-package',
+			link: 'https://wa.link/ocp3eb',
 			plan: [
 				'25 servings of Puffpuff',
 				'20 servings of Chicken Puff',
@@ -214,7 +213,7 @@ export const COMPANY_PROFILE = {
 			description:
 				'Designed for large-scale events and special occasions. Features a wide range of snacks and refreshments.',
 			price: 299,
-			link: 'https://example.com/premium-package',
+			link: 'https://wa.link/30lao7',
 			plan: [
 				'40 servings of Puffpuff',
 				'30 servings of Chicken Puff',
@@ -227,7 +226,7 @@ export const COMPANY_PROFILE = {
 			description:
 				'Tailored to your specific needs and preferences. Contact us for a personalized package.',
 			price: 'Calculated', // Set the price to 0 or specify a custom price
-			link: 'https://example.com/custom-package',
+			link: 'https://wa.link/88kfxxe',
 			plan: [
 				'Choose your preferred snacks and refreshments',
 				'Specify the quantities and any dietary preferences',
@@ -306,9 +305,15 @@ export const COMPANY_PROFILE = {
 		{
 			platform: 'Instagram',
 			url: 'https://www.instagram.com/Zeebites_delight',
-			icon: 'INSTAGRAM',
+			icon: '/instagram.png',
 		},
 		// Add more social media platforms as needed
 	],
 	map: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.9938342847277!2d-95.61365442432094!3d29.690958435232204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640dd98fc971695%3A0x237fb12e3ffcfd4f!2s8015%20Barnes%20Ridge%20Ln%2C%20Houston%2C%20TX%2077072%2C%20USA!5e0!3m2!1sen!2sng!4v1685624248600!5m2!1sen!2sng',
 };
+<img
+	width='150'
+	height='150'
+	src='https://img.icons8.com/ios-filled/150/000000/instagram-new--v1.png'
+	alt='instagram-new--v1'
+/>;

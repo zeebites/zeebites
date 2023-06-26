@@ -12,7 +12,7 @@ const AboutUsSection: React.FC = () => {
 					About Us
 				</h2>
 				<div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-					<div>
+					<div className='w-full h-auto overflow-hidden rounded-lg'>
 						<BlurImage
 							src={aboutUs.image}
 							alt='About Us'

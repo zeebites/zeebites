@@ -16,7 +16,7 @@ const HowItWorksSection: React.FC = () => {
 							key={index}
 							className='flex items-center'
 						>
-							<div className='w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4'>
+							<div className='w-12 h-12 flex-shrink-0 flex-grow-0 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold text-xl mr-4'>
 								{step.number}
 							</div>
 							<div>

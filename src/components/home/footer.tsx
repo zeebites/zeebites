@@ -2,6 +2,7 @@ import React from 'react';
 import { COMPANY_PROFILE } from '../../../utils/const';
 import { formatPhoneNumber } from '../../../utils/helpers';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Footer: React.FC = () => {
 	const { name, address, email, phone, social } = COMPANY_PROFILE;
@@ -47,15 +48,21 @@ const Footer: React.FC = () => {
 						</h4>
 						<div className='flex space-x-4'>
 							{social.map((platform, index) => (
-								<a
+								<Link
 									key={index}
 									href={platform.url}
 									target='_blank'
 									rel='noopener noreferrer'
 									className='text-gray-400 hover:text-white transition-colors duration-300'
 								>
-									{platform.icon}
-								</a>
+									<Image
+										height={40}
+										width={40}
+										className='h-10 w-10 overflow-hidden'
+										src={platform.icon}
+										alt={platform.platform}
+									/>
+								</Link>
 							))}
 						</div>
 					</div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { COMPANY_PROFILE } from '../../../utils/const';
+import Link from 'next/link';
 
 const PricingSection: React.FC = () => {
 	const { packages } = COMPANY_PROFILE;
@@ -10,37 +11,44 @@ const PricingSection: React.FC = () => {
 				<h2 className='text-4xl font-bold text-center mb-8'>
 					Pricing & Packages
 				</h2>
-				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8'>
 					{packages.map((pack, index) => (
 						<div
 							key={index}
-							className='bg-white rounded-lg shadow-md p-6'
+							className='flex flex-col justify-between bg-orange-50 rounded-lg shadow-md hover:scale-105 hover:bg-orange-200 transition-all duration-300 overflow-hidden'
 						>
-							<h3 className='text-xl font-bold mb-2'>
-								{pack.name}
-							</h3>
-							<p className='text-gray-600 mb-4'>
-								{pack.description}
-							</p>
-							<ul className='text-gray-700 mb-4'>
+							<div className='flex flex-col gap-2'>
+								<h3 className='text-xl font-bold mb-2 text-center py-3 bg-orange-500 text-white'>
+									{pack.name}
+								</h3>
+								<p className='text-gray-600 mb-4 px-6'>
+									{pack.description}
+								</p>
+							</div>
+							<ul className='text-gray-700 mb-4 list-disc px-6'>
 								{pack.plan.map((item, itemIndex) => (
-									<li key={itemIndex}>{item}</li>
+									<li
+										className='mb-2'
+										key={itemIndex}
+									>
+										{item}
+									</li>
 								))}
 							</ul>
-							<div className='flex justify-between'>
+							<div className='flex justify-between px-6 mb-4'>
 								<p className='text-gray-700 font-semibold'>
 									{typeof pack.price === 'number'
 										? `$${pack.price}`
 										: 'Inquire Price'}
 								</p>
-								<a
+								<Link
 									href={pack.link}
 									target='_blank'
 									rel='noopener noreferrer'
 									className='text-orange-500 hover:underline'
 								>
-									Learn More
-								</a>
+									Book Now
+								</Link>
 							</div>
 						</div>
 					))}

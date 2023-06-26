@@ -3,7 +3,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/solid';
 import { AnimatePresence, motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { Fragment, useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Button from '../ui/button';
 import { COMPANY_PROFILE } from '../../../utils/const';
 
@@ -40,7 +40,7 @@ export default function NavBar() {
 
 	return (
 		<div className='fixed z-[200]'>
-			<div className='w-screen bg-orange-50 bg-opacity-80 backdrop-blur dark:bg-orange-800 h-fit flex justify-between items-center py-2 px-10'>
+			<div className='w-screen bg-orange-50 bg-opacity-80 backdrop-blur dark:bg-orange-800 h-fit flex justify-between items-center py-2 px-3 lg:px-10'>
 				<Link
 					href='/'
 					className='shrink-0 font-bold'

@@ -12,8 +12,8 @@ const HeroSection: React.FC = () => {
 					className='h-32 w-32'
 					alt='Zeebites Delight Logo'
 					src={COMPANY_PROFILE.logo}
-					height={128}
-					width={128}
+					height={300}
+					width={300}
 				/>
 				<div className='header-content mb-10'>
 					<h1 className='text-5xl font-bold mb-3'>
@@ -30,7 +30,7 @@ const HeroSection: React.FC = () => {
 					{COMPANY_PROFILE.heroSubtitle}
 				</p> */}
 				<Link
-					href='/#contact'
+					href='https://wa.me/+13467159206'
 					className='bg-orange-500 hover:bg-orange-600 py-3 px-6 rounded-full text-lg font-semibold transition-colors duration-300'
 				>
 					{COMPANY_PROFILE.heroCTA}
