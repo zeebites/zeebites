@@ -6,7 +6,7 @@ const ContactInformation: React.FC = () => {
 	const { email, phone, address } = COMPANY_PROFILE;
 
 	return (
-		<section className='bg-orange-100 py-12'>
+		<section className='bg-orange-100 dark:bg-orange-900 py-12'>
 			<div className='container mx-auto px-4'>
 				<h2 className='text-4xl font-bold text-center mb-8'>
 					Contact Information
@@ -24,7 +24,9 @@ const ContactInformation: React.FC = () => {
 								<path d='M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z' />
 							</svg>
 						</div>
-						<p className='text-gray-700'>{email}</p>
+						<p className='text-gray-700 dark:text-gray-200'>
+							{email}
+						</p>
 					</div>
 					<div className='md:w-1/3 text-center flex flex-col items-center justify-center mb-8 md:mb-0'>
 						<div className='flex gap-3 mb-2'>
@@ -74,7 +76,7 @@ const ContactInformation: React.FC = () => {
 								/>
 							</svg>
 						</div>
-						<p className='text-gray-700'>
+						<p className='text-gray-700 dark:text-gray-200'>
 							{formatPhoneNumber(phone)}
 						</p>
 					</div>
@@ -93,7 +95,9 @@ const ContactInformation: React.FC = () => {
 								/>
 							</svg>
 						</div>
-						<p className='text-gray-700'>{address}</p>
+						<p className='text-gray-700 dark:text-gray-200'>
+							{address}
+						</p>
 					</div>
 				</div>
 			</div>

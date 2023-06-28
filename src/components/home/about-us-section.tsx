@@ -25,19 +25,21 @@ const AboutUsSection: React.FC = () => {
 						<h3 className='text-2xl font-bold mb-4'>
 							{aboutUs.title}
 						</h3>
-						<p className='text-gray-600 mb-6'>
+						<p className='text-gray-600 dark:text-gray-200 mb-6'>
 							{aboutUs.description}
 						</p>
 						<h4 className='text-lg font-bold mb-2'>
 							Our Mission
 						</h4>
-						<p className='text-gray-600 mb-4'>
+						<p className='text-gray-600 dark:text-gray-200 mb-4'>
 							{aboutUs.mission}
 						</p>
 						<h4 className='text-lg font-bold mb-2'>
 							Our Vision
 						</h4>
-						<p className='text-gray-600'>{aboutUs.vision}</p>
+						<p className='text-gray-600 dark:text-gray-200'>
+							{aboutUs.vision}
+						</p>
 					</div>
 				</div>
 			</div>

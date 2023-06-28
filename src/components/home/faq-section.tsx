@@ -14,12 +14,12 @@ const FAQSection: React.FC = () => {
 					{faq.map((item, index) => (
 						<div
 							key={index}
-							className='bg-white p-6 shadow-md rounded-md'
+							className='bg-orange-100 dark:bg-orange-950 p-6 shadow-md rounded-md'
 						>
 							<h3 className='text-xl font-semibold mb-4'>
 								{item.question}
 							</h3>
-							<p className='text-gray-700'>
+							<p className='text-gray-700 dark:text-gray-200'>
 								{item.answer}
 							</p>
 						</div>

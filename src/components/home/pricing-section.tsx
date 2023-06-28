@@ -38,7 +38,7 @@ const PricingSection: React.FC = () => {
 								</ul>
 							</div>
 							<div className=''>
-								<pre className='p-6 italic'>
+								<pre className='p-6 italic dark:text-orange-950'>
 									{typeof pack.price === 'number'
 										? `Minimum order - ${pack.minimum}pcs`
 										: 'No minimum order'}

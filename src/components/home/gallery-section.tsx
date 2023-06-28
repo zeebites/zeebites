@@ -72,7 +72,7 @@ const GallerySection: React.FC = () => {
 					{filteredGallery.map((image, index) => (
 						<div
 							key={index}
-							className='shadow-md bg-orange-100 overflow-hidden rounded-md hover:scale-105 transition-all duration-300 cursor-pointer'
+							className='shadow-md bg-orange-100 dark:bg-orange-900 overflow-hidden rounded-md hover:scale-105 transition-all duration-300 cursor-pointer'
 							onClick={() => handleImageClick(image)}
 						>
 							<BlurImage
@@ -82,7 +82,7 @@ const GallerySection: React.FC = () => {
 								height={500}
 								width={500}
 							/>
-							<p className='text-center my-2 text-orange-600'>
+							<p className='text-center my-2 text-orange-600 dark:text-orange-200'>
 								{image.caption}
 							</p>
 						</div>

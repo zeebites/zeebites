@@ -15,12 +15,12 @@ const TestimonialsSection: React.FC = () => {
 					{testimonials.map((testimonial, index) => (
 						<div
 							key={index}
-							className='flex flex-col justify-between rounded-lg shadow-md overflow-hidden bg-orange-100'
+							className='flex flex-col justify-between rounded-lg shadow-md overflow-hidden bg-orange-100 dark:bg-orange-900'
 						>
-							<p className='text-gray-600 p-6'>
+							<p className='text-gray-600 dark:text-gray-200 p-6'>
 								{testimonial.content}
 							</p>
-							<div className='flex items-center bg-orange-200'>
+							<div className='flex items-center bg-orange-200 dark:bg-orange-700'>
 								<div className='w-16 h-16 overflow-hidden flex-shrink-0 flex-grow-0 rounded-tr-xl'>
 									<BlurImage
 										src={testimonial.avatar}
@@ -34,7 +34,7 @@ const TestimonialsSection: React.FC = () => {
 									<h3 className='font-bold'>
 										{testimonial.author}
 									</h3>
-									<p className='text-gray-600'>
+									<p className='text-gray-600 dark:text-gray-200'>
 										{testimonial.role}
 									</p>
 								</div>

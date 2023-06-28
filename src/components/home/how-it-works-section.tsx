@@ -23,7 +23,7 @@ const HowItWorksSection: React.FC = () => {
 								<h3 className='text-xl font-bold mb-2'>
 									{step.title}
 								</h3>
-								<p className='text-gray-600'>
+								<p className='text-gray-600 dark:text-gray-200'>
 									{step.description}
 								</p>
 							</div>

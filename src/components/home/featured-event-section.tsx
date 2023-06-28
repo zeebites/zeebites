@@ -15,7 +15,7 @@ const FeaturedEventsSection: React.FC = () => {
 					{featuredEvents.map((event, index) => (
 						<div
 							key={index}
-							className='bg-white rounded-lg shadow-md p-6'
+							className='bg-orange-100 dark:bg-orange-900 rounded-lg shadow-md p-6'
 						>
 							<BlurImage
 								src={event.image}
@@ -27,7 +27,7 @@ const FeaturedEventsSection: React.FC = () => {
 							<h3 className='text-xl font-bold mb-2'>
 								{event.title}
 							</h3>
-							<p className='text-gray-600 mb-4'>
+							<p className='text-gray-600 dark:text-gray-200 mb-4'>
 								{event.description}
 							</p>
 							<a

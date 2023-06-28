@@ -15,7 +15,7 @@ const ServicesSection: React.FC = () => {
 					{services.map((service, index) => (
 						<div
 							key={index}
-							className='rounded-lg shadow-md overflow-hidden bg-orange-100'
+							className='rounded-lg shadow-md overflow-hidden bg-orange-100 dark:bg-orange-900'
 						>
 							<div className='w-full h-72 overflow-hidden'>
 								<BlurImage
@@ -30,7 +30,7 @@ const ServicesSection: React.FC = () => {
 								<h3 className='text-xl font-bold mb-2'>
 									{service.name}
 								</h3>
-								<p className='text-gray-600 mb-4'>
+								<p className='text-gray-600 dark:text-gray-200 mb-4'>
 									{service.description}
 								</p>
 								<ul className='list-disc ml-6'>
