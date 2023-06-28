@@ -57,8 +57,8 @@ export const COMPANY_PROFILE = {
 			image: '/moinmoin.jpg',
 			items: [
 				'Traditional Moin-moin',
-				'Vegetable Moin-moin',
-				'Fish Moin-moin',
+				'Classic Moin-moin',
+				'Fish/Beef Moin-moin',
 			],
 		},
 		{
@@ -67,7 +67,7 @@ export const COMPANY_PROFILE = {
 			image: '/chinchin.jpg',
 			items: [
 				'Classic Chin-chin',
-				'Vanilla Chin-chin',
+				'Garlic Chin-chin',
 				'Cinnamon Chin-chin',
 			],
 		},
@@ -91,11 +91,7 @@ export const COMPANY_PROFILE = {
 			name: 'Assorted Turkey',
 			description: 'Tender and flavorful turkey meat.',
 			image: '/turkey.jpg',
-			items: [
-				'Herb-Roasted Turkey',
-				'Spicy BBQ Turkey',
-				'Teriyaki Turkey',
-			],
+			items: ['Roasted Turkey', 'Spicy BBQ Turkey', 'Fried Turkey'],
 		},
 		{
 			name: 'Kelewele (Ghanaian flavor)',
@@ -109,6 +105,12 @@ export const COMPANY_PROFILE = {
 		},
 	],
 	testimonials: [
+		{
+			content: 'I wanted to surprise my cousin in Houston, Texas for her graduation ceremony, and Zeebites Delight made it possible. Despite the distance, the package arrived right on time, and the snacks were delicious! My cousin was thrilled, and it added an extra special touch to her celebration. Thank you, Zeebites Delight, for the fantastic service!',
+			author: 'Emma from London, UK',
+			role: 'Parent',
+			avatar: '/avatar6.jpg',
+		},
 		{
 			content: "Zeebites Delight catered our event, and their snacks were a huge hit! Our guests couldn't get enough of the delicious Puffpuff and Spring Rolls. Highly recommended!",
 			author: 'Ogunbodede Lawal',
@@ -186,40 +188,79 @@ export const COMPANY_PROFILE = {
 			name: 'Essential Package',
 			description:
 				'Perfect for small gatherings and casual events. Includes a variety of snacks and refreshments.',
-			price: 99,
+			price: 10,
 			link: 'https://wa.link/ynskwn',
 			plan: [
-				'15 servings of Puffpuff',
-				'10 servings of Chicken Puff',
-				'5 servings of Moin-moin',
-				'20 servings of Chin-chin',
+				'Puffpuff (3pcs)',
+				'Samosa or Spring Rolls (3pcs)',
+				'Chicken Puff (3pcs)',
+				'Small Pack of Chin-chin',
 			],
+			minimum: 10,
 		},
 		{
-			name: 'Deluxe Package',
+			name: 'Deluxe Package 1',
 			description:
 				'Ideal for medium-sized events and parties. Offers an extensive selection of snacks and refreshments.',
-			price: 199,
-			link: 'https://wa.link/ocp3eb',
+			price: 12,
+			link: 'https://wa.link/f2mlwg',
 			plan: [
-				'25 servings of Puffpuff',
-				'20 servings of Chicken Puff',
-				'10 servings of Moin-moin',
-				'30 servings of Chin-chin',
+				'Puffpuff (2pcs)',
+				'Samosa or Spring Rolls (2pcs)',
+				'Moin Moin (1pcs)',
+				'Fried Turkey (2pcs)',
+				'Fried Plaintain',
 			],
+			minimum: 10,
 		},
 		{
-			name: 'Premium Package',
+			name: 'Deluxe Package 2',
+			description:
+				'Ideal for medium-sized events and parties. Offers an extensive selection of snacks and refreshments.',
+			price: 12,
+			link: 'https://wa.link/pabap7',
+			plan: [
+				'Puffpuff (4pcs)',
+				'Samosa or Spring Rolls (4pcs)',
+				'Moin Moin (1pcs)',
+				'Fried Turkey (1pcs)',
+				'Fried Plaintain',
+			],
+			minimum: 10,
+		},
+		{
+			name: 'Premium Package 1',
 			description:
 				'Designed for large-scale events and special occasions. Features a wide range of snacks and refreshments.',
-			price: 299,
-			link: 'https://wa.link/30lao7',
+			price: 160,
+			link: 'https://wa.link/sqogig',
 			plan: [
-				'40 servings of Puffpuff',
-				'30 servings of Chicken Puff',
-				'15 servings of Moin-moin',
-				'50 servings of Chin-chin',
+				'Puffpuff (50pcs)',
+				'Spring Rolls (20pcs)',
+				'Samosa (20pcs)',
+				'Gizzard in hot sauce (20pcs)',
+				'Fried Turkey (5pcs)',
+				'Prawn in butter (5pcs)',
+				'Fried Plantain',
 			],
+			minimum: 10,
+		},
+		{
+			name: 'Premium Package 2',
+			description:
+				'Designed for large-scale events and special occasions. Features a wide range of snacks and refreshments.',
+			price: 160,
+			link: 'https://wa.link/fb3zkt',
+			plan: [
+				'Puffpuff (50pcs)',
+				'Spring Rolls (20pcs)',
+				'Samosa (20pcs)',
+				'Chicken Wings in hot sauce (15pcs)',
+				'Gizzard in hot sauce (15pcs)',
+				'Prawn in butter (5pcs)',
+				'Fried Plantain',
+			],
+			minimum: 10,
 		},
 		{
 			name: 'Custom Package',
@@ -232,6 +273,7 @@ export const COMPANY_PROFILE = {
 				'Specify the quantities and any dietary preferences',
 				'Get a personalized quote based on your selections',
 			],
+			minimum: 'custom',
 		},
 	],
 	aboutUs: {

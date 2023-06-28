@@ -50,7 +50,7 @@ export default function NavBar() {
 						width={50}
 						src={COMPANY_PROFILE.logo}
 						alt=''
-						className='dark:invert'
+						className=''
 					/>
 				</Link>
 				<div className='lg:flex justify-center w-full hidden'>

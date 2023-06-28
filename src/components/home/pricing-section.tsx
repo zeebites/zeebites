@@ -24,31 +24,43 @@ const PricingSection: React.FC = () => {
 								<p className='text-gray-600 mb-4 px-6'>
 									{pack.description}
 								</p>
+								<ul className='text-gray-700 mb-4 list-disc px-6'>
+									{pack.plan.map(
+										(item, itemIndex) => (
+											<li
+												className='mb-2'
+												key={itemIndex}
+											>
+												{item}
+											</li>
+										)
+									)}
+								</ul>
 							</div>
-							<ul className='text-gray-700 mb-4 list-disc px-6'>
-								{pack.plan.map((item, itemIndex) => (
-									<li
-										className='mb-2'
-										key={itemIndex}
-									>
-										{item}
-									</li>
-								))}
-							</ul>
-							<div className='flex justify-between px-6 mb-4'>
-								<p className='text-gray-700 font-semibold'>
+							<div className=''>
+								<pre className='p-6 italic'>
 									{typeof pack.price === 'number'
-										? `$${pack.price}`
-										: 'Inquire Price'}
-								</p>
-								<Link
-									href={pack.link}
-									target='_blank'
-									rel='noopener noreferrer'
-									className='text-orange-500 hover:underline'
-								>
-									Book Now
-								</Link>
+										? `Minimum order - ${pack.minimum}pcs`
+										: 'No minimum order'}
+
+									{``}
+								</pre>
+								<div className='flex justify-between px-6 mb-4'>
+									<p className='text-gray-700 font-semibold'>
+										{typeof pack.price ===
+										'number'
+											? `$${pack.price}/PACK`
+											: 'Inquire Price'}
+									</p>
+									<Link
+										href={pack.link}
+										target='_blank'
+										rel='noopener noreferrer'
+										className='text-orange-500 hover:underline'
+									>
+										Book Now
+									</Link>
+								</div>
 							</div>
 						</div>
 					))}
