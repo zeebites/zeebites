@@ -28,7 +28,7 @@ const PricingSection: React.FC = () => {
 									{pack.plan.map(
 										(item, itemIndex) => (
 											<li
-												className='mb-2'
+												className='ml-2 mb-2'
 												key={itemIndex}
 											>
 												{item}
@@ -39,7 +39,9 @@ const PricingSection: React.FC = () => {
 							</div>
 							<div className=''>
 								<pre className='p-6 italic dark:text-orange-950'>
-									{typeof pack.price === 'number'
+									{typeof pack.minimum ===
+										'number' ||
+									typeof pack.minimum === 'number'
 										? `Minimum order - ${pack.minimum}pcs`
 										: 'No minimum order'}
 

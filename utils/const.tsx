@@ -243,7 +243,7 @@ export const COMPANY_PROFILE = {
 				'Prawn in butter (5pcs)',
 				'Fried Plantain',
 			],
-			minimum: 10,
+			minimum: 'custom',
 		},
 		{
 			name: 'Premium Package 2',
@@ -260,7 +260,7 @@ export const COMPANY_PROFILE = {
 				'Prawn in butter (5pcs)',
 				'Fried Plantain',
 			],
-			minimum: 10,
+			minimum: 'custom',
 		},
 		{
 			name: 'Custom Package',
