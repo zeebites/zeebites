@@ -107,15 +107,15 @@ export const COMPANY_PROFILE = {
 	testimonials: [
 		{
 			content: 'I wanted to surprise my cousin in Houston, Texas for her graduation ceremony, and Zeebites Delight made it possible. Despite the distance, the package arrived right on time, and the snacks were delicious! My cousin was thrilled, and it added an extra special touch to her celebration. Thank you, Zeebites Delight, for the fantastic service!',
-			author: 'Emma from London, UK',
+			author: 'Mrs Bolaji, UK',
 			role: 'Parent',
-			avatar: '/avatar6.jpg',
+			avatar: '/bolaji.png',
 		},
 		{
 			content: "Zeebites Delight catered our event, and their snacks were a huge hit! Our guests couldn't get enough of the delicious Puffpuff and Spring Rolls. Highly recommended!",
-			author: 'Ogunbodede Lawal',
+			author: 'Mr Bayo',
 			role: 'Event Organizer',
-			avatar: '/avatar1.jpg',
+			avatar: '/bayo.png',
 		},
 		{
 			content: "The Chin-chin from Zeebites Delight is absolutely addictive! Their attention to flavor and quality is unmatched. I can't wait to order again!",
