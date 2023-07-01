@@ -11,7 +11,7 @@ const HeroSection: React.FC = () => {
 				<Image
 					className='h-32 w-32'
 					alt='Zeebites Delight Logo'
-					src={COMPANY_PROFILE.logo}
+					src={COMPANY_PROFILE.logolg}
 					height={300}
 					width={300}
 				/>
