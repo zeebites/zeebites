@@ -318,7 +318,7 @@ export const COMPANY_PROFILE = {
 		},
 		{
 			url: '/samosas4.jpg',
-			caption: 'Supereme Samosas',
+			caption: 'Superem Samosas',
 			category: 'snacks',
 		},
 		{
